@@ -15,7 +15,7 @@
 # inherit from common hlte
 -include device/samsung/hlte-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := hltexx,SM-N9005,hlte,hlteskt,hltektt,SM-N900S,SM-N900K
+TARGET_OTA_ASSERT_DEVICE := hltexx,hlte,SM-N9005,hlteskt,hltektt,SM-N900S,SM-N900K,hltecan,SM-N900W8,hltemo,SM-N900T
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm
@@ -36,8 +36,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 
 # BlissPop Configs
-TARGET_TC_ROM := 5.1-linaro
-TARGET_TC_KERNEL := 5.1-linaro
+TARGET_TC_ROM := 4.9-sm
+TARGET_TC_KERNEL := 5.1-sm
 BLISSIFY := true
 BLISS_O3 := true
 BLISS_STRICT := false
