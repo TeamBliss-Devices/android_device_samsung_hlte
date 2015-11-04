@@ -36,7 +36,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 
 # BlissPop Configs
-TARGET_TC_ROM := 4.9
+TARGET_TC_ROM := 4.9-sm
 TARGET_TC_KERNEL := 5.1-sm
 BLISSIFY := true
 BLISS_O3 := true
